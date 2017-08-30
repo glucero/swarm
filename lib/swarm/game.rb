@@ -165,7 +165,7 @@ module Swarm
     end
 
     def initialize
-      @players = 10
+      @players = 5
 
       @rate = 2.0
     end
