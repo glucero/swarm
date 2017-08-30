@@ -14,18 +14,23 @@ Use "VI cursor movement" keys "h" (left), "j" (down), "k" (up), "l" (right) to m
 the Player around the Map. Rocks are immovable, push piles of Dirt
 around to squish the Enemies - but don't let them squish you first!
 
-### installation
+### documentation
 
-install the latest released gem
+https://glucero.github.io/swarm/
 
-` gem install swarm`
+### quick installation
 
-build and install the latest unreleased gem
+```
+wget https://raw.githubusercontent.com/glucero/swarm/master/swarm-VERSION.gem
+gem install swarm-VERSION.gem
+```
+
+### building and installing from source
 
 ```
 git clone https://github.com/glucero/swarm
 cd swarm
 bundle
 gem build swarm.gemspec
-gem install ./swarm-VERSION.gem
+gem install swarm-VERSION.gem
 ```
