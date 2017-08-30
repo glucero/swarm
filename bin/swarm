@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require File.join(File.dirname(__dir__), 'lib/swarm')
+# require 'ruby-prof'
+
+# result = RubyProf.profile do
+  Swarm.start
+# end
+
+# printer = RubyProf::FlatPrinter.new(result)
+# printer.print(STDOUT)
