@@ -8,12 +8,6 @@
 
 Squish or be squished!
 
-### how-to-play
-
-Use "VI cursor movement" keys "h" (left), "j" (down), "k" (up), "l" (right) to move
-the Player around the Map. Rocks are immovable, push piles of Dirt
-around to squish the Enemies - but don't let them squish you first!
-
 ### documentation
 
 https://glucero.github.io/swarm/
@@ -24,6 +18,10 @@ https://glucero.github.io/swarm/
 wget https://raw.githubusercontent.com/glucero/swarm/master/swarm-VERSION.gem
 gem install swarm-VERSION.gem
 ```
+
+### usage
+
+```swarm``` or ```SWARM=easy swarm```
 
 ### building and installing from source
 
