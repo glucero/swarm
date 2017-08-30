@@ -8,10 +8,6 @@
 
 Squish or be squished!
 
-### documentation
-
-https://glucero.github.io/swarm/
-
 ### quick installation
 
 ```
@@ -21,7 +17,7 @@ gem install swarm-VERSION.gem
 
 ### usage
 
-```swarm``` or ```SWARM=easy swarm```
+`swarm` or `SWARM=easy swarm`
 
 ### building and installing from source
 
@@ -32,3 +28,8 @@ bundle
 gem build swarm.gemspec
 gem install swarm-VERSION.gem
 ```
+
+### documentation
+
+https://glucero.github.io/swarm/
+
