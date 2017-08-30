@@ -3,8 +3,7 @@ module Swarm
   class Level
 
     def Level.each(&block)
-      # [Intro, One, Two, Three, Four, Five].each { |level| block.call level.new }
-      [Five].each { |level| block.call level.new }
+      [Intro, One, Two, Three, Four, Five].each { |level| block.call level.new }
     end
 
     def update
