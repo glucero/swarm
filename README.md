@@ -11,8 +11,8 @@ Squish or be squished!
 ### quick installation
 
 ```
-wget https://raw.githubusercontent.com/glucero/swarm/master/swarm-VERSION.gem
-gem install swarm-VERSION.gem
+wget https://github.com/glucero/swarm/releases/download/1.0.2/swarm-1.0.2.gem
+gem install swarm-1.0.2.gem
 ```
 
 ### usage
