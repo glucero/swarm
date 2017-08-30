@@ -1,8 +1,6 @@
 require 'curses'
 require 'io/console'
 
-require 'pry'
-
 $LOAD_PATH.unshift __dir__
 
 require 'swarm/console'
