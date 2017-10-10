@@ -1,7 +1,7 @@
 require File.join(__dir__, 'lib/swarm/version')
 
 Gem::Specification.new do |gem|
-  gem.name          = 'swarm'
+  gem.name          = 'the-swarm'
   gem.version       = Swarm::VERSION
 
   gem.author        = 'Gino Lucero'
@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split(?\n)
-  gem.executables   = [gem.name]
+  gem.executables   = ['swarm']
 
   gem.add_dependency 'curses'
 
