@@ -102,9 +102,9 @@ module Swarm
     # And follows these rules
     # * empty tiles don't transfer movement
     # * enemies block enemies
-    # * playeras are turned into eggs when touching enemies
+    # * players are killed when touching enemies
     # * enemies get squished by players
-    # * players get squished by soldiers
+    # * players get squished by queens
     # * rocks block everything
     #
     # @param tile [Tile]
