@@ -18,6 +18,10 @@ gem install the-swarm
 
 `swarm` or `SWARM=easy swarm`
 
+<img src="https://raw.githubusercontent.com/glucero/swarm/master/start_screen.png" alt="start_screen" height="600" width="800" >
+<img src="https://raw.githubusercontent.com/glucero/swarm/master/level_1.png" alt="level_1" height="600" width="800" >
+
+
 ### building and installing from source
 
 ```
